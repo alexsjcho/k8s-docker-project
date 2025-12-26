@@ -4,6 +4,36 @@ A simple learning project to learn how Kubernetes + Docker using a simple counte
 
 ![Kubernetes and Docker Architecture](img/k8s+docker-img.png)
 
+## Learning Points
+
+This project demonstrates:
+
+1. **Containerization**: Docker images for each component
+2. **Kubernetes Deployments**: Managing application replicas
+3. **Services**: Internal networking between pods
+4. **Namespaces**: Organizing resources
+5. **Health Probes**: Liveness and readiness checks
+6. **Resource Management**: CPU and memory limits
+7. **Next.js API Routes**: Server-side API proxies
+8. **Service Discovery**: Pods finding each other via service names
+9. **React Frontend**: Modern React-based UI with Next.js
+
+## Who Benefits From This Solution?
+
+### 👨‍💻 **Software Developers**
+- Learn containerization and microservices patterns
+- Understand how to structure applications for Kubernetes
+- Gain hands-on experience with modern deployment practices
+- See how services communicate in a distributed system
+
+### 👨‍💼 **DevOps Engineers**
+- Practice Kubernetes deployment and configuration
+- Learn service discovery, networking, and resource management
+- Understand health checks, probes, and auto-recovery
+- Gain experience with container orchestration
+
+#-standard tools and practices
+- Build a portfolio project demonstrating cloud-native skills
 ## Challenges This Solution Solves
 
 This project demonstrates how Kubernetes and Docker address common challenges in modern application development and deployment:
@@ -73,43 +103,6 @@ This project demonstrates a complete containerized microservices application:
 6. Backend API increments counter in Redis
 7. Updated count is returned and displayed to the user
 
-## Who Benefits From This Solution?
-
-### 👨‍💻 **Software Developers**
-- Learn containerization and microservices patterns
-- Understand how to structure applications for Kubernetes
-- Gain hands-on experience with modern deployment practices
-- See how services communicate in a distributed system
-
-### 👨‍💼 **DevOps Engineers**
-- Practice Kubernetes deployment and configuration
-- Learn service discovery, networking, and resource management
-- Understand health checks, probes, and auto-recovery
-- Gain experience with container orchestration
-
-### 🎓 **Students & Learners**
-- Beginner-friendly introduction to Kubernetes concepts
-- Hands-on project to understand containerization
-- Learn industry-standard tools and practices
-- Build a portfolio project demonstrating cloud-native skills
-
-### 🏢 **Startups & Small Teams**
-- Understand how to structure applications for scalability
-- Learn cost-effective deployment strategies
-- See how to build resilient, production-ready applications
-- Foundation for moving to cloud platforms (AWS EKS, GKE, AKS)
-
-### 🏗️ **Architects & Technical Leads**
-- Reference implementation for microservices architecture
-- Example of best practices for Kubernetes deployments
-- Demonstrates separation of concerns and service boundaries
-- Template for building similar applications
-
-### 🔄 **Teams Migrating to Cloud-Native**
-- Understand containerization benefits
-- Learn Kubernetes fundamentals before cloud migration
-- Practice local development with production-like environments
-- Build confidence with orchestration tools
 
 ## Architecture
 
@@ -481,17 +474,4 @@ docker rmi mini-api:1 mini-frontend:1
 # Note: Docker Desktop Kubernetes will continue running unless you disable it in Docker Desktop settings
 ```
 
-## Learning Points
-
-This project demonstrates:
-
-1. **Containerization**: Docker images for each component
-2. **Kubernetes Deployments**: Managing application replicas
-3. **Services**: Internal networking between pods
-4. **Namespaces**: Organizing resources
-5. **Health Probes**: Liveness and readiness checks
-6. **Resource Management**: CPU and memory limits
-7. **Next.js API Routes**: Server-side API proxies
-8. **Service Discovery**: Pods finding each other via service names
-9. **React Frontend**: Modern React-based UI with Next.js
 
