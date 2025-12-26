@@ -18,7 +18,7 @@ spec:
       containers:
       - name: frontend
         image: mini-frontend:1
-        imagePullPolicy: Never
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3000
         env:
